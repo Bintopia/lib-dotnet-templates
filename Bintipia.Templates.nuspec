@@ -8,7 +8,7 @@
     -->
     <metadata>
         <id>Bintopia.Templates</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <authors>Bintopia</authors>
         <owners>Bintopia</owners>
         <description>Common used .NET project templates</description>

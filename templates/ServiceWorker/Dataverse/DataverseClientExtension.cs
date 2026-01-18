@@ -24,6 +24,12 @@ public static class DataverseClientExtension
 
             services.AddSingleton<IDataverseClientFactory, DataverseClientFactory>();
 
+            services.AddScoped(sp =>
+            {
+                var factory = sp.GetRequiredService<IDataverseClientFactory>();
+                return factory.CreateClient();
+            });
+            
             return services;
         }
     }
