@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Bintopia",
+    "classifications": [
+        "Service"
+    ],
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "identity": "Bintopia.Templates.ServiceWorker",
+    "name": "Service Worker",
+    "shortName": [
+        "worker",
+        "job"
+    ],
+    "sourceName": "Bintipia.Templates.ServiceWorker",
+    "preferNameDirectory": false
+}

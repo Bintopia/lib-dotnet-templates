@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <!--
+        https://learn.microsoft.com/nuget/reference/nuspec
+        https://learn.microsoft.com/nuget/create-packages/creating-a-package#create-the-nuspec-file
+        https://learn.microsoft.com/nuget/create-packages/creating-a-package#from-a-convention-based-working-directory
+        https://learn.microsoft.com/nuget/create-packages/package-authoring-best-practices
+    -->
+    <metadata>
+        <id>Bintopia.Templates</id>
+        <version>1.0.0</version>
+        <authors>Bintopia</authors>
+        <owners>Bintopia</owners>
+        <description>Common used .NET project templates</description>
+        <readme>docs\README.md</readme>
+        <copyright>Copyright ©2026 Bintopia</copyright>
+        <license type="expression">Apache-2.0</license>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <tags>template</tags>
+        <projectUrl>https://github.com/bintopia/lib-dotnet-templates</projectUrl>
+    </metadata>
+    <files>
+        <file src="*\**" target="\" exclude="**"/>
+        <file src="README.md" target="docs\README.md"/>
+        <file src="templates\**" target="Content" exclude="**\bin\**;**\obj\**;"/>
+    </files>
+</package>
